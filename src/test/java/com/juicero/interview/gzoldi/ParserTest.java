@@ -29,7 +29,7 @@ public class ParserTest {
         assertThat( "smoke reversed",
                 new Parser().flatten("d4c3b2a"), equalTo("dccccbbbaa")
         );
-        // TODO: this will fail, insert character order is not maintained
+        // TODO: this will fail -- insert character order is not maintained, try LinkedHashMap
     }
 
 }
