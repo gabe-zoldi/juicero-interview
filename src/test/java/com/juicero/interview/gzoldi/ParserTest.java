@@ -26,7 +26,7 @@ public class ParserTest {
 
     @Test
     public void reverse_smoke() {
-        assertThat(
+        assertThat( "smoke reversed",
                 new Parser().flatten("d4c3b2a"), equalTo("dccccbbbaa")
         );
         // TODO: this will fail, insert character order is not maintained
