@@ -1,6 +1,6 @@
 ## Synopsis
 
-Parser - input = "2a3b4cd", output = "aabbbccccd"
+com.juicero.interview.gzoldi.Parser: input = "2a3b4cd", output = "aabbbccccd"
 
 ## Motivation
 
@@ -16,7 +16,7 @@ Code examples and explanations of how to get the project.
 
 #### Support
 
-JDK 1.7
+JDK 1.8
 
 ```sh
 mvn clean install
